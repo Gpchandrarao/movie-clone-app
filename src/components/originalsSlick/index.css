@@ -1,0 +1,127 @@
+.img-element {
+  height: 170px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.originals-slick-list {
+  width: 90%;
+  margin-left: 30px;
+}
+
+.slick-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  width: 1109px;
+  background-color: #0d0d0d;
+  border-radius: 8px;
+}
+
+.slick-failure-view {
+  background-color: #0d0d0d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  width: 1109px;
+}
+
+.caution-icon {
+  color: red;
+  height: 15px;
+  width: 15px;
+}
+
+.slick-failure-para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.trending-slick-list {
+  width: 90%;
+  margin-left: 30px;
+}
+
+.slick-failure-img {
+  height: 50px;
+  width: 150px;
+}
+
+.slick-failure-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  outline: none;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  /* General/Dark blue */
+
+  color: #171f46;
+
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .img-element {
+    left: 8.89%;
+    right: 66.11%;
+    top: 56.14%;
+    bottom: 35.68%;
+    height: 64px;
+    width: 90px;
+  }
+  .slick-failure-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin-top: 10px;
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 100px;
+  width: 100px;
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+}
